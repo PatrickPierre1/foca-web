@@ -11,11 +11,11 @@ const Footer = () => {
   const footerLinks = [
     {
       title: "Serviços",
-      links: ["Tráfego Pago", "Design Gráfico", "Copywriting", "Automação", "Desenvolvimento"],
+      links: ["Tráfego Pago", "Desenvolvimento", "Automação", "Social Media", "Design Gráfico", "Copywriting"],
     },
     {
       title: "Empresa",
-      links: ["Sobre nós", "Cases", "Blog", "Carreiras"],
+      links: ["Sobre nós"],
     },
     {
       title: "Legal",

@@ -2,45 +2,51 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { 
-  Target, 
-  Palette, 
-  PenTool, 
-  Cpu, 
+import {
+  Target,
   Globe,
-  ArrowUpRight
+  Cpu,
+  Share2,
+  Palette,
+  PenTool
 } from "lucide-react";
 
 const services = [
   {
     icon: Target,
     title: "Tráfego Pago",
-    description: "Google Ads e Meta Ads otimizados para conversão. Campanhas que geram leads qualificados e vendas reais.",
+    description: "Estratégias em múltiplas plataformas digitais, com forte especialização em Google Ads e Meta Ads.\nEstrutura completa orientada a conversão, escala e previsibilidade de resultados.",
     gradient: "from-brand-magenta to-brand-purple",
-  },
-  {
-    icon: Palette,
-    title: "Design Gráfico",
-    description: "Identidade visual marcante, criativos que convertem e materiais que elevam sua marca.",
-    gradient: "from-brand-purple to-brand-blue",
-  },
-  {
-    icon: PenTool,
-    title: "Copywriting & Social",
-    description: "Textos persuasivos e gestão de redes sociais que engajam e constroem autoridade.",
-    gradient: "from-brand-blue to-brand-cyan",
-  },
-  {
-    icon: Cpu,
-    title: "Automação & IA",
-    description: "Automações inteligentes e inteligência artificial para escalar suas operações.",
-    gradient: "from-brand-cyan to-brand-teal",
   },
   {
     icon: Globe,
     title: "Desenvolvimento Web",
     description: "Sites e landing pages de alta conversão, rápidos e otimizados para SEO.",
+    gradient: "from-brand-purple to-brand-blue",
+  },
+  {
+    icon: Cpu,
+    title: "Automação & IA",
+    description: "Automações inteligentes e inteligência artificial para escalar suas operações.",
+    gradient: "from-brand-blue to-brand-cyan",
+  },
+  {
+    icon: Share2,
+    title: "Social Media",
+    description: "Gestão estratégica de redes sociais que engajam, constroem autoridade e geram conexão com seu público.",
+    gradient: "from-brand-cyan to-brand-teal",
+  },
+  {
+    icon: Palette,
+    title: "Design Gráfico",
+    description: "Identidade visual marcante, criativos que convertem e materiais que elevam sua marca.",
     gradient: "from-brand-teal to-brand-magenta",
+  },
+  {
+    icon: PenTool,
+    title: "Copywriting",
+    description: "Textos persuasivos que vendem. Copy para anúncios, landing pages e comunicação que converte.",
+    gradient: "from-brand-magenta to-brand-purple",
   },
 ];
 
@@ -66,15 +72,9 @@ const ServiceCard = ({ service, index }: { service: typeof services[0]; index: n
         <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors duration-300">
           {service.title}
         </h3>
-        <p className="text-muted-foreground leading-relaxed">
+        <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
           {service.description}
         </p>
-
-        {/* Arrow indicator */}
-        <div className="mt-6 flex items-center gap-2 text-accent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <span className="text-sm font-semibold">Saiba mais</span>
-          <ArrowUpRight className="w-4 h-4" />
-        </div>
       </div>
     </motion.div>
   );

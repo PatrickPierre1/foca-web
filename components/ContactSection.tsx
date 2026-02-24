@@ -61,7 +61,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <section id="contato" className="py-24 bg-secondary/50">
+    <section id="contato" className="py-24 bg-background">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Left side - Info */}

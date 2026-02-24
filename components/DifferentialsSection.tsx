@@ -90,8 +90,8 @@ const DifferentialsSection = () => {
 
               {/* Central element */}
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-32 h-32 rounded-full gradient-hero shadow-accent flex items-center justify-center">
-                  <span className="text-5xl font-extrabold text-white">F</span>
+                <div className="w-32 h-32 rounded-full gradient-hero shadow-accent flex items-center justify-center p-4">
+                  <img src="/logo-foca.png" alt="Foca Marketing" className="w-full h-full object-contain" />
                 </div>
               </div>
             </div>

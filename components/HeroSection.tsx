@@ -65,7 +65,7 @@ const HeroSection = () => {
               variant="hero"
               size="xl"
               className="group"
-              onClick={() => window.open("https://wa.me/5511965781953?text=Olá!%20Vim%20pelo%20site%20e%20quero%20crescer%20meu%20negócio!", "_blank")}
+              onClick={() => window.open("https://wa.me/5521994176751?text=Olá!%20Vim%20pelo%20site%20e%20quero%20crescer%20meu%20negócio!", "_blank")}
             >
               Quero crescer agora
               <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />

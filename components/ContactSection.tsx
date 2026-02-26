@@ -56,7 +56,7 @@ const ContactSection = () => {
 
   const contactInfo = [
     { icon: Mail, label: "Email", value: "foca.marketing@gmail.com" },
-    { icon: Phone, label: "Telefone", value: "(11) 96578-1953" },
+    { icon: Phone, label: "Telefone", value: "(21) 99417-6751" },
     { icon: MapPin, label: "Localização", value: "São Paulo, SP" },
   ];
 
@@ -103,7 +103,7 @@ const ContactSection = () => {
               variant="accent"
               size="lg"
               className="gap-3"
-              onClick={() => window.open("https://wa.me/5511965781953?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Foca%20Marketing!", "_blank")}
+              onClick={() => window.open("https://wa.me/5521994176751?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Foca%20Marketing!", "_blank")}
             >
               <MessageCircle className="w-5 h-5" />
               Conversar no WhatsApp

@@ -62,7 +62,7 @@ const Header = () => {
           <Button
             variant={isScrolled ? "accent" : "hero"}
             size="default"
-            onClick={() => window.open("https://wa.me/5511965781953?text=Olá!%20Quero%20falar%20com%20a%20Foca!", "_blank")}
+            onClick={() => window.open("https://wa.me/5521994176751?text=Olá!%20Quero%20falar%20com%20a%20Foca!", "_blank")}
           >
             Fale com a Foca
           </Button>
@@ -101,7 +101,7 @@ const Header = () => {
               className="mt-2 w-full"
               onClick={() => {
                 setIsMobileMenuOpen(false);
-                window.open("https://wa.me/5511965781953?text=Olá!%20Quero%20falar%20com%20a%20Foca!", "_blank");
+                window.open("https://wa.me/5521994176751?text=Olá!%20Quero%20falar%20com%20a%20Foca!", "_blank");
               }}
             >
               Fale com a Foca
